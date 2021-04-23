@@ -11,6 +11,9 @@
     text-align: right;
     line-height: 100px;
 }
+
+
+
 .branding, .mainMenu {
     grid-row: 1;
 }
@@ -73,8 +76,20 @@ menu {
 .mainMenu li {
     display: inline;
 }
-.mainMenu menu a {
-    color: red;
+.mainMenu menu a:link, a:visited {
+    color: white;
+    font-size: 1.5em;
+    background-color: darkcyan;
+
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+.mainMenu menu a:active, a:hover {
+    background-color: red;
+    color: white;
+
 }
 .mainMenu ul {
     margin: 0px;

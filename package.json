@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "copy-webpack-plugin": "^8.1.0",
     "image-minimizer-webpack-plugin": "^2.2.0",
